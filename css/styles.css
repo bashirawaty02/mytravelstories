@@ -1,3 +1,6 @@
+img {
+    width:960px; height:270px;
+}
 q{
     margin-left: 30px;
 }
@@ -5,5 +8,7 @@ th,table,td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 20px;
-    background-color: grey;
+}
+th{
+    background-color: lightgrey;
 }

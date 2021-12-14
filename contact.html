@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/desert.jpg" alt="" />
+    </header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./contact.html">Reach Me</a>
+    </nav>
+    <h1>Lets connect</h1>
+    <blockquote>
+      <q>Life Either a daring adventure or nothing at all </q>
+    </blockquote>
+
+    <main>
+      <form>
+        <fieldset>
+          <legend>Your Details</legend>
+          <label for="firstname"> First Name</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Your name "
+          />
+          <br /><br />
+
+          <label for="lastName"> Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastname"
+            placeholder="Your last name"
+          />
+          <br /><br />
+          <label for="country">Country</label>
+          <select name="country" id="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="US">US</option>
+          </select>
+        </fieldset>
+<br><br>
+    <label for="hearing">How did you hear about me?</label>
+    <input type="radio" name="website" id="website">
+    <label for="website">Website</label>
+    <input type="radio" name="facebook" id="facebook">
+    <label for="facebook">Facebook</label>
+
+    <br><br>
+
+    <label for="comment">Leave your comment here:</label>
+    <br><br>
+    <textarea name="comment" id="comment" placeholder="Write something.."></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+      </form>
+    </main>
+    <footer>
+      <p>Copyright 2020. All rights reserve. Made with &hearts;</p>
+    </footer>
+  </body>
+</html>
